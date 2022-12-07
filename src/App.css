@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+
+  color: #ffffff;
+  background-color: #475465;
+
+  overflow-y: scroll;
+}
+
+.App button {
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #25baf5;
+  transition: 0.2s;
+}
+
+.App button:hover {
+  background-color: #00a3e3;
+}
+
+.App input {
+  outline: none;
+  border: 1px solid #1d86b3;
+  border-radius: 10px;
+  color: #ffffff;
+  background: #516379;
+  transition: 0.2s;
+}
+
+.page-container {
+  width: 70vw;
+  height: 80vh;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+
+.page-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.page-body-header {
+  padding: 0.5rem 0;
+}
+
+.page-body-header button {
+  margin: 0 0.5rem;
+  padding: 0.6rem;
+}
+
+.message-container {
+  width: 100%;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.edit-car-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-car-form button {
+  padding: 0.6rem;
+  margin-left: 0.5rem;
+}
+
+.edit-car-form input {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.edit-car-form .buttons-container {
+  align-self: flex-end;
+}
+
+.rent-car-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.rent-car-input form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.rent-car-input form label {
+  width: 100%;
+}
+
+.rent-car-input form input {
+  padding: 0.5rem;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  width: 5rem;
+}
+
+.rent-car-form form button {
+  border: none;
+  padding: 1rem 0.6rem;
+  margin: 0.5rem;
+  width: 80%;
+
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.renove-rent-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.renove-rent-form input {
+  width: 5rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.renove-rent-form button {
+  width: 80%;
+  padding: 0.6rem;
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
